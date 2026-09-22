@@ -73,7 +73,4 @@ longer than 32 characters, the shortest limit across the supported databases:
 {@link examples.SqlClientExamples#savepoint03(io.vertx.sqlclient.Pool)}
 ----
 
-Not every database supports savepoints, and some support only part of the API. When an operation is not
-supported the call fails with an `UnsupportedOperationException` rather than pretending to succeed.
-
 include::savepoint_note.adoc[opts=optional]
